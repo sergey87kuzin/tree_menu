@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load load_menu %}
+{% block title %}
+    <title>Стартовая страница</title>
+{% endblock %}
+{% block content %}
+    {% load_menu %}
+    <p>Some text</p>
+    <p>{{ slug }}</p>
+{% endblock %}
